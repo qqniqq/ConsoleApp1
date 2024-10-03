@@ -1,15 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp1
+public class PhoneModel
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+    public string Brand { get; set; }
+    public string Model { get; set; }
+    public List<int> Sales { get; set; }
 }
